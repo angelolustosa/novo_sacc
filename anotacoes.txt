@@ -1,0 +1,513 @@
+>>>>>>> 20/01/24 
+
+- Como alterar a identidade visual do template
+- RUC é o número do contrato, o que ele chama de instrumento de contratação é o documento em sim (separado por ponto: orgao.sequencial.ano) 400001.506015.2025.16
+- Na parte das Alterações Contratuais, além dos ADI e APO o que seria o corrigenda
+
+- Perfis e autorizações, um perfil pode ter diferentes visuzliações dependendo do tipo de contrato
+
+1- Slcitação de Contrataçaõ
+
+
+Rascundoh -> Em Andamento -> C0oncluído
+
+
+Menu SOlicitações  -> Contratações
+
+Na lista em seguida aparece os CNPJS que venceram a licitação de cada item do contrato, desta forma terá que ser criad um cdastro de cada CNPJ para cada item.
+
+o que pe obrigatório é a Jutada de Documentos, eu como áre afinalista, que determino quais são so documetnos que seão necesários.
+
+- Se caso, eu colocar um documento de certidão, por exemplo, o sistema não realiza a validação, ou seja, tem que ser manual.
+
+
+Obs: O represtentate pode ter mais de um CNPJ e quando ele vai logar, consegue escolher qual empresa deseja selecionar.
+
+
+Ficará em Andamento até a analise Financeira e Jurídica for realizado. Olhando diretamente a tabela não há nenhuma situação que consiga perceber que que o jurídico ou o financerio fez a análise, apenas pela linha do tempo.
+
+NO exemplo do parecer juridico, no upload eu não preciso assinar digitalmente.
+
+depois do financeiro e o juricidco enviararm o parecer, o responsável da área finalística clica em validar  e encaminha, em Conlcuído, aparece o contrato
+
+Há um tempo para assinatura do signatários dentro do prazo de validade do contrato.
+
+A solicitação de alteração é permitido até a assinatura
+
+ o email não tem a identidade visual do estado
+ 
+ Nenhuma alteração do contrato, antes da assinatura, não nada que faça retornar para o Financeiro ou o Jurídico, apenas alteral=çãoes básicas.
+ 
+ Das assinaturas vai para a aba Publicação, se caso, der alguma erro , fica o STATUS ERRO DE ENVIO, vai ficar retentando, se der algum erro do documento uma inconsistencia no contrato, consigo ver o STATUS diferente.
+ 
+ 
+ Se for negado, não há feedback. Se for aceito recebe o email.
+ 
+ O email e os documentos está sem identidade visual, mas na entrega terá.
+ 
+ Criado o login como ASSISTENTE e CGE 2. 
+ 
+ usuario: 01337098337
+ senha: Teste@123
+ 
+ O ambiente de homol está em torno de 3 min, em produção é 30 min.
+ 
+ O número do protocolo ao fazer o cadastro informa o protocolo: SOL0000632025
+ 
+ tipo de sol, sequencial de 6 números e o ano
+ 
+ Ao final de cada ano ele é zerado
+ 
+ 
+ A funcionalidade de relatório é a falta de cabeçalhos e rodapés, paginação. Perguntei sobre a opção de autitoria, se todos teriam acesso, deu um erro
+ 
+ O perfil dá acesso às telas e todas as suas funcionalidades.
+ 
+ Não tem como filtrar os usários com os perfis, ou um ou o outro. Exemplifiquei
+ 
+ Cargo(?) e Perfil
+ 
+ A base de cep tem apenas da cidade, no cadastro de usuário por dentro do sistema, o campo de endereço é aberto, se colocar o cep com o endereço errado fica errado.
+ 
+ O órgão tem que ter um signatário, se todos vencerem por exemplo o sistema não informa que o órgão ficará sem signatário, ou seja, só vou descobrir, no processo de contratação.
+ Na visualizaçãio de assinar, a lista de signatário do orgão ou do representante legal ficará vazia e não conlcui.
+ 
+ O cadastro da assinaura digital é realizada apenas via plugin, o Lacuna (gerido pela SEPLAG), em homol o tempo são 6meses ou 1 ano, em prod indefinido.
+
+Documentos
+
+Tipos de documentos deu erro
+
+Modelos de documentos, será que o link fica disponível no inspecionar
+
+Não possui avaliação de sistema e apenas do contrato.
+
+
+>>>>>>> 21/01/24 
+
+** Fornecedores
+
+ao cadastar chega para o adminstrador para aceitar ou negar, se negar não chega email para quem solicitou.
+
+Se o cnpj existir no crc já traz os dados de lá.
+
+CODIP -> tem que inserir a dotação orçamentária
+
+depois que vai para o jurídico ou financeiro
+
+Ao incluir a análise financeira ou Jurídico, na Caixa de entrada aparecer uma situação aguardando (Quando nem o Financeiro e nem o Jurídico for entregue)...,
+
+juridico enviou -> Aguardando Fianceiro
+financeiro enviou -> Aguardando Jurídico
+
+Ao ter o documento e alocar os signatários vai listar os usuários signatários do órgão.
+
+
+ ** Cronograma
+ no cadastro do cronograma os itens aparece uma lista, mas poderia ser conforme está no e-parcerias, como os dados vem do LICITAWEB salvar como inidice, exemplo:
+ 
+ 1 - Pó quimico, fraxo, 200g
+ 
+ No adicionar ele não exibe o saldo, só depois de adicionar tudo que o usuário deseja (que pode passar do valor total permitido), tenho que voltar na tela , clicar em validar, o qual vai mostrar apenas o valor e não os intens que tenho que remover, ficando difícil para o usuário que ao retirar determinado item, quanto de saldo eu tenho.
+ 
+ só posso editar uma etapa se estiver PLANEJADA
+ 
+ A ENTREGA finaliza gera uns 3 documentos (provissório, gerado automaticamente e depois o definitivo), com esses documentos , pode ser solicitado os pagamentos para o contratado.
+ 
+ Há um termo de incoformidade (Comunicado de Inconformidade) nem sempre será gerado.
+ 
+ O documento difinitivo foi gerado, não há data de emissão, não há um hashcode que garanta que este pdf foi gerado pelo sistema, podendo haver problema juridicamente.
+ 
+ Uma vez a etapa EXECUTADA, não pode ser alterada, apenas com ADI/APO
+ 
+ Em solicitação de pagamento
+ 
+ No acompanahemnto o gestor do órgão posso saber quais os contratos que tenho. Mas tem os em: andamento, liquidado e concluído. Teria que emitir 3 relatórios um para cada situação.
+ 
+ Na solicitação não há tributos, o pagamento é realizado fora do sistema.
+ 
+ Relatório de gestor do órgão saber todos contratos que tenho comprometido(liquidado) como de forma individual está em Acompanhamentos -> Dados Financeiros (Contratos Saldos Valores)
+ 
+ Gráfico em S do que foi empenhado, liquidado e pago.
+ 
+ Foi mostrado a Matriz de Risco - Gráfico de Risco, mas a nomenclatura é Mapa de Risco e não Matriz.
+ 
+ No encerramento se todas as entregas forem realizadas, mas não foi feito a liquidação não consegue ENCERRAR.
+ 
+ NO encerramento, é semelhante à PC, tudo tem que estar finalizado, como monitoramento, hoje no exemplo disse que era na Entrega. Mas sugeri ele informar tudo que tem pendente e não p
+ 
+ Não há existe nada sobre Ata de Preço, ficaria para desenvolvimento.
+ 
+ O Sacc funciona em cima da 866 e o NOVO SACC 14133.
+ 
+ O termo de Suspensão
+ 
+ Todas as telas de Suspensão a informação está dentro do pdf, ou seja, se o órgão quiser saber quais os motivos dos contratos estarem suspensos, teria que baixar os pdfs e abrir 1 a 1. O interessante é que as informações não ficasse disponível apenas dentro do doc e sim do banco (justificativa da suspensão) e assim carregr dentro do pdf, para assim poder gerar fum relatório com dados que estão no banco e não apenas dentro dos documentos.
+ 
+ 
+ >>>>>>> 22/01/24 
+ 
+ Geração do certificado do lacuna no note da cge.
+ 
+ Solicitações -> Solicitação de Contratação -> Novo e procura pelo numero do contrato 2023/14504 - Próximo -> pesquisar o CNPJ 06.053.353/0001-36
+ 
+2023/14504
+
+06.053.353/0001-36
+SANTA BRANCA DISTRIBUIDORA DE MEDICAMENTOS LTDA (Angelo)
+
+
+08.077.211/0001-34
+T S COMERCIAL DE MEDICAMENTOS E REPRESENTACAO LTDA (Charles)
+
+
+Na tela que pesquisa o CNPJ (Identificação do Processo Licitatório)
+
+Ao buscar o cnpj vir junto com a razão social.
+Ao pesquisar disse que já estava cadastrado, sugestão é remover os cnpjs que já foram utilizadas ou exibir desabilitado, tachado, ou seja, informando que não pode.
+
+Consegui com esse e o 2023/14220
+Dados do Contratado
+CNPJ: 23.864.942/0001-13
+Nome: UNIQUE DISTRIBUIDORA DE MEDICAMENTOS EIRELI
+Status: Ativo
+
+Solicitação efetuada com sucesso! Protocolo: SOL0001152025
+
+Continuando...
+
+Solicitações -> Solicitação de Contratação
+
+Na tabela Rascunhos aparece o Responsável e clicar no olho
+
+Aba Gestão e Fiscalização, buscar pelo meu cpf 013.370.983-37, aparece logo abaixo do input de pesquisa e no botão ADICIONAR, depois CADASTRAR.
+
+Obrigatoriamente, tem que ser o cargo GESTOR DO CONTRATO -> CADASTRAR.
+
+Mas pode ser cadastrado até 4 que aparece na list de cargo.
+
+Vigênica
+
+inicio de hoje (inicio e final da execução tem que ser antes do final da vigencia,ou seja, execução dentro da vigência)
+
+
+Início da Vigência *
+22/01/2025
+Final da Vigência *
+29/01/2025
+Início da Execução *
+22/01/2025
+Final da Execução *
+28/01/2025
+
+
+Documentos
+o Limite´são 2MB
+
+não precisa utilizar agora, só se quiser anexar um documento,  só ir em Documentos
+Se for o Represntante Legal -> Juntada de Documetno
+
+Contratados
+
+Dados do Representante Legal (não é o meu cpf, pois sou o gestor )
+
+
+Dados do Representante Legal
+CPF *
+750.957.130-80
+Nome *
+ANA VITÓRIA CAETANO
+E-mail *
+ERIKA.CANIX@GMAIL.COM
+Telefone *
+(85) 9999-9999 -> só está permitindo mascara de telefone e não celular, ser automático
+
+Erro
+CPF não permitido. (quando tentei com o meu cpf, está ok)
+
+
+Juntada de Documentos
+
+Tipo Do Documento
+
+CONTRATO SOCIAL OU ESTATUTO SOCIAL DA EMPRESA (obrigatório)
+CERTIFICADO DE MICROEMPRESA OU EMPRESA DE PEQUENO PORTE
+
+
+ao salvar os documentos vai o email para o contratado(laranja), para incluir os documentos.
+
+Se na Juntada de Documentos todos foram opcionais, o contratado (laranja) pode seguir sem colocar anexos, pois tudo é opcional
+
+Na parte laranja (juntada de documento) ele clica no ícone do boneco perto do sair e escolhe o cpnj, pois ele está como representante de váriso cnpjs. Ao ele enviar o documento que coloquei como obrigatório e salvou o meu validar habilitou e a situação FINALIZADO.
+
+Solicitações -> Solicitações de Contratação -> Aba Rascunho -> procurar responsável ANGELO LUSTOSA -> clica em VALIDAR -> aí muda para Aba EM ANDAMENTO -> Procura pelo Responsável.
+
+Seria interessante um filtro nesta tela Solicitações de Contratação (Aba EM ANDAMENTO) -> O filtro de Responsável.
+
+Anáslises Orçamentária.
+
+
+Solicitações -> Análises Orçamentárias - CODIP
+
+de prefenrencia pegar um que não foi o meu
+
+
+
+2023/14504
+037757732023
+08077211000134-T S COMERCIAL DE MEDICAMENTOS E REPRESENTACAO LTDA
+
+Janela de COnfirmação
+Ao confirmar essa ação, você se torna responsável por essa etapa de análise do processo. Deseja continuar?
+SIM
+
+Novo -> inserir a dotação orçamentária ((Ano:2023 - Gestor: 240401) - 1173353 - 24200104.10.542.632.20244.03.339139.2.600.9200000.1)
+
+clico nos 3 pontinos e clicar em VALIDAR, ou voltar e validar na tabela.
+
+Lista de Pendências da Solicitação
+Nenhuma pendência encontrada!
+
+Encaminhar
+
+
+** Análise Financeira (um lado da sala)
+
+Solicitações -> Análises Financeiras
+
+** Análise jurídicas (um lado da sala)
+
+Solicitações -> Análises Jurídicas
+
+Confirmação
+Ao confirmar essa ação, você se torna responsável por essa etapa de análise do processo. Deseja continuar?
+SIM
+
+
+Aba Análise -> Novo -> Documento Editável.
+Editei o documento que aparecer no Google DOC. (è interessante ter os dados do contrato para inserção de informaçãoes, apesar do contrato não está firmado.)
+nome do documento: Parecer Jurídico - SOL0000932025 - Angelo Lustosa - Botão Salvar e Sair.
+
+NO meu apareceu duplicado a análise jurídicas
+ANJ0000452025
+PARECER JURÍDICO
+Parecer Jurídico - SOL0000932025 - Angelo Lustosa
+
+22/01/2025 15:21:02
+ANJ0000402025
+PARECER JURÍDICO
+(Sem texto)
+22/01/2025 15:19:04
+
+Assinar o Documetno -> Editar-> botao do lado do Goolge e assinar documetno
+
+Obr: Para upar um documento o tipo de documento é PARECER
+
+Como no meu apareceu duplicado tiver que assinar os dois. Volta clica clica em Validação -> Encaminhar.
+
+** Formalização de Contratos
+
+
+Formalização -> Formalizações de Contratos
+
+Escolher qualquer um na CAIXA DE ENTRADA
+
+
+Classificação de Objetos do Contrato
+- (TIPIFICAÇÂO) -> Tipo: COMPRAS -> Cofirmar (vai para a tela )
+- (ELABORAÇÃO) -> Definir Siginatários -> Cofirmar (vai para a tela )
+
+ERIKA ADM - 20207521077(Selecionar) -> Confirmar.
+
+
+** Modelos de Documentos
+
+Administração -> Meus Modelos de Documentos -> Adiconar Diretório Raiz. (É criado uma referência no banco e nao no filesystem)
+
+Nome do diretório pode ser qualquer um: MEUS MODELOS - ANGELO
+
+Ao clicar em Novo
+
+Vai para uma tela de Cadastrar
+
+NO passo: Dados do Documento
+
+Nome do Modelo *
+MODELO 1 - ANGELO
+
+Selecione o Tipo de Documento *
+PARECER
+
+
+Inserir o nome e o tipo -> Cadastrar e Visualizar Documento
+
+Vai para Salvar.
+
+ >>>>>>> 23/01/24 
+ 
+ 
+ ** Ordem de Execução: para iniciar a execução do contrato
+ 
+ Cadastar
+ -> Aba Dados -> selecionar a ordem de execução
+ Elaboração
+ -> Assinado apenas pela contratante
+ 
+ 
+ Todos os documentos do ciclo de vida de contrato, por exemplo, ADitivo, apostilamento, entre outrso é assinado em "Assinatura de Documentos"
+ 
+ Observação: Como gestor do órgão não consigo saber quais são os contratos que estão com as ordens de execução pendente, ou se for negada e qual a justificativ a
+ 
+ Baseado no tipo as duas letras da ordem de execução muda, por exemplo, 
+ 
+ 
+ AC- > Autorização de Compra
+ OS -> Ordem de Serviço
+ 
+ AC100001506015202516 (neste caso, AC -> este tipo de ordem de execução é para COMPRA)
+ 
+No Cronograma
+
+Tem que ser criado tudo de uma vez (limitação), pode se modificar os itens do cronograma enquanto não for entregue. Entretanto, no de Rateio tem que ser via Aditivo.
+
+É possível ter mais de uma etapa e para cada etapa ter 1 ou mais itens. O sistema já está preparado para ter mais de uma etapa e mudar um item que está em 1 e colocar em outro, se não tiver sido entregue.
+
+Ao Gerar o cronograma sugeri
+
+No cronograma o documento definitovo e provissório tem que ser assinado pelo gestor do órgão, no sistema não faz a diferenciação
+
+Exercicio
+
+Criar a ordem de execução -> Clicar na casinha (Bereadcrumb)-> Painel de Contratos (Beta) -> Aba No Setor
+
+RUC: 410001.506024.2025-15 (024) -> clicar no olho 
+
+Na janela que abrir 
+
+
+RUC: 410001.506024.2025-15
+Órgão: 41000000-CONTROLADORIA E OUVIDORIA GERAL DO ESTADO
+CNPJ: 60.318.797/0001-00
+Tipo de Contrato: CONTRATO PADRÃO
+Contratado: ASTRAZENECA DO BRASIL LTDA.
+Situação: VIGENTE
+
+Aba Acompanhamento -> Ordem de Execução
+
+Ordem de Execução -> Novo -> Abre na tela de Cadastrar
+
+Melhoria: Data da Ordem de Execução * e Data de Início Real * já vir preenchido com a data inicial e data final, permitir colar a data e ter o botão hoje no datepicker
+
+Data da Ordem de Execução*: Que irá inicar a ordem de execução.
+Data de Início Real*: Posso colocar para hoje ou para colocar amanhã, neste caso pode ser as datas iguais, ou seja, as datas dos campos iguais.
+
+tenho que ir em Dados -> Dados da Contratação
+
+Informações de Virgência
+Data
+Início da Vigência	22/01/2025
+Final da Vigência	31/07/2025
+Início da Execução	22/01/2025
+Final da Execução	08/03/2025
+
+
+NO campo Prazo de Execução (em dias) *: vir com a quantidade Início da Execução	(22/01/2025) e Final da Execução	(08/03/2025), ou seja, tinha que ser 45 e vir desabilitado, já calcular assim que colocar as duas datas.
+
+o campo Descrição *: o que poderia vir neste campo ?
+
+Ordem de serviço enviado para assinatura
+
+N°: AC4100015060242025.002
+
+Signatário(s): ANA VITÓRIA CAETANO (Contratado tem que assinar primeiro, é opcional), YURY VIDAL (o órgão é obrigatório)
+
+
+**Sanção
+
+Cadastra a sanção e vai para o Jurídico
+
+Ir na caixa de entrada e escolhe um em documentos na coluna tipo de Documento aparece um protocolo SPA879879789 (SPA - Solicitação de Processo de APOIO )
+Na Aba Parecer Jurídico, tem que colocar o tipo de Parecer: Favorável(Aceita), Parcialmente Favorável (O Jurídico concorda com algumas coisa) e Desfavorável(não concorda com nada)
+
+Abaixo aparece o parecer que foi parcialmente escolhido, como no exemplo tem apenas 1 parecer, só apareceu ele abaixo e confirmar
+
+Neste momento, foi dado início, mas todo o processo judicial é realizado fora do sistema, mas o sistema não emite alerta que aquela sanção não teve resposta. Ter um tipo de alerta.
+
+
+
+** Alterações
+
+Finalistico: Solicita a alteração (Aditivo, Apostilamento ou Corrigienda) ->
+Jurídico: Análisa a solicitacao de alteração | Documento: PARECER JURÍDICO ->
+Gestor: Assinar -> Volta para o Jurídico e cai na caixa de entrada, ele no APO de alteraeção de gestor/fiscal ao encaminhar o documento e envia para a Assinatura pelo orgao, neste exemplo foi o Guilherme. Ao assinar conlcuído.
+
+Para conferir a alteração: Casinha -> pocura -> Aba Dados -> Dados da Contratação e Aba Gestor/Fiscalização e confere em Tipo de Agente (Fisacal Setorial)
+
+OBS: o ADI não é publicado, apenas o APO e a CORRIGIENDA
+
+Aba Alterações Contratuais 
+
+O Finalístico (o contratante- gestor do contrato) ver apenas (Solicitações de alterações)
+
+Na lei não exite CORRIGENDA, é apenas uma forma de facilitar para o usuário e sempre vai pegar o último publicado
+
+
+** Acompanhamento
+
+- Fornecedor ou Contratado (Orgaização Social)
+- Acompanhamento não é um Monitoramento, basicamente é saber em que situação encontra-se o contrato.
+- Uma das sanções é espefífica para o envio da PC, então se ele não enviar é criada a sação (em uma das 12 que tem na tela de sanção) que por fora do sistema é enviado para o CRC e impede de ter novas licitações e consequentemente de novos contratos, desta forma nem aparece no sistema do novo sacc.
+- Deve ter uma tela para o gestor saber quais contratos estão com a PC que não foi enviada, atualmente não existe.
+
+Novos Tipos
+
+-> Gestão e Patrocínio tem o mesmo fluxo que no acompanhamento tem um cadastro da comissão e tem que fazer o uploadelatório da comissão.
+
+
+>>>>>>> 23/01/24
+
+Contratos de Obras
+
+- Sim vier do SIGSOP já carrega os dados, se não tiver vindo do SIGSOP pode ser cadastrados os dados, como fotos, vídeos, anotações.
+- A Vigência é maior do que a execução.
+- No Tipo de Formalização de Contratação já veio Caso Específico - Compra sem obrigação futura (Dispensa de Razão de Valor e Compra sem obrigação futura não é caracterizado contrato)
+- No Tipo de Instrumento de Contratação: Autorização de Compra
+- Classificação de Objeto de contrato: Obras
+- RUC já é gerado e já envia para Publicação no PNCP
+- Aparece uma aba nova: Cadastros/Integrações. Se não vem do SIGSOP tem que cadastrar alguns dados.
+Dados Orçamentos a quantiade e o valor Unitário vindo do SIGSOP está zerado e o valor Total vem preenchido.
+- número contrato (SOP): 868968776SEDUC, se tiver dinheiro federal e estadual vem duas linhas
+
+868968776SEDUC01
+868968776SEDUC02
+
+O 01 e 02 
+
+- A Ordem de Paralisão não vem do serviço da SOP, tem que ser solicitado para que sej aincluído no serviço da SOP.
+- O vídeo da obra não vem no serviço do SIGSOP.
+- Em informações Gerais as labels ficam muito afastadas dos valores, ou colocar ... ou em uma tabela.
+
+
+Contrato de Gestão 
+
+- É Solicitação de Repasse e nçai de Pagamentos.
+- Comissão de Avaliação ao criar, ou seja, adicionar as pessoas, tem que ser no mínimo 3 pessoas, mas na tela não informa sobre esta regra, interessante que tenha.
+
+
+Contrato Corporativo
+
+-Contrato pela SEINFRA faz o contrato de água e luz, e todas as secretaria utilizam deste mesmo contrato, por isso chamam de conrato guarda-chuva.
+-Cadastro de órgãos participantes
+- Relatóri para a SEINFRA poder veriicar quais órgãos que estão participando destes contratos.
+-Solcitação de Contratos Cooporativos é exclusivo para usuários da SEINFRA.  
+
+Observação: Todos os 3 Tipo de Formalização de Contratação: (Contrato, Dispensa de Razão de Valor e Compra Sem Obrigação Futura )- publicam no PNCP.
+
+- Em Órgão Parcipante pode emitir o relatório dos orgão.
+- Implementar um relatório gerencial para saber o total empenhado e o total pago de todos os contratos, tendo em vista que o total executado e o total empenhado estão batendo. Atualmente temos essa informação por contrato.
+
+- não existe contrato sigiloso.
+
+Relatórios
+
+- campo multiselect para os tipos.
