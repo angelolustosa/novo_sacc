@@ -1,78 +1,10 @@
-# Anotações do Curso
-
-## 20/01/2024
-
-### Melhorias
-- Alteração da identidade visual do template (email e documentos).
-- Cadastro para múltiplos CNPJs para cada item de contrato.
-- Possibilidade de o representante escolher o CNPJ ao logar.
-- Inclusão de cabeçalhos, rodapés e paginação nos relatórios.
-- Melhorar a validação de saldos e itens na funcionalidade de cronograma.
-- Adicionar gráficos em formato de "S" para demonstrar valores empenhados, liquidados e pagos.
-- Atualizar a nomenclatura de "Matriz de Risco" para "Mapa de Risco".
-
-### Erros
-- Tempo de homologação e produção inconsistente (3 min vs. 30 min).
-- Relatórios de gestão carecem de cabeçalhos e paginadores.
-- Não há feedback em caso de negação de solicitações.
-
-### Ajustes
-- Corrigir falta de validação automática de documentos obrigatórios.
-- Exibir pendências para conclusão (como análises financeiras e jurídicas) de forma clara no sistema.
-- Adicionar mensagens de erro detalhadas nos status de envio de documentos e contratos.
-- Atualizar CEPs no cadastro para evitar erros manuais.
-- Informar ao órgão sobre falta de signatários antes de iniciar a contratação.
-- Incorporar justificativas de suspensão no banco de dados para relatórios detalhados.
-- Permitir apenas edições de etapas que estejam "PLANEJADAS".
-- Informar todos os itens pendentes antes do encerramento.
-
----
-
-## 21/01/2024
-
-### Melhorias
-- Listagem de signatários ao alocar os documentos.
-- Exibição de situação na caixa de entrada:
-  - Jurídico enviado -> "Aguardando Financeiro".
-  - Financeiro enviado -> "Aguardando Jurídico".
-- Implementação de validação de saldos ao adicionar itens no cronograma.
-
-### Erros
-- CPF inválido exibido ao tentar cadastrar dados do representante legal.
-- Limite de 2MB para anexos não sendo informativo no sistema.
-- Mascaramento automático para telefone, mas não para celular.
-
----
-
-## 22/01/2024
-
-### Melhorias
-- Adição de busca por CPF ou CNPJ no cadastro de usuários.
-- Inclusão de validação automática para evitar duplicação de dados nos contratos.
-- Melhorar o design do painel administrativo para exibir informações relevantes de forma mais organizada.
-- Adicionar relatórios customizáveis baseados em filtros específicos, como datas e responsáveis.
-
-### Erros
-- Campo "Data de Assinatura" aceita datas inválidas no cadastro de contratos.
-- Falha ao carregar documentos PDF para visualização direta no sistema.
-- Problemas de ordenação em relatórios financeiros (ordem alfabética inesperada).
-- Links de recuperação de senha não funcionando adequadamente para alguns usuários.
-
-### Ajustes
-- Corrigir problema de timezone que altera as datas nos relatórios exportados.
-- Implementar botão de "Salvar e Continuar" nos formulários extensos para evitar perda de dados.
-- Ajustar a notificação de pendências para ser enviada semanalmente ao e-mail dos responsáveis.
-- Melhorar a responsividade do sistema para dispositivos móveis.
-
-
-
-# 2. Instalação e configuração do Lacuna (Plugin para assinatura digital | SEPLAG)
+# 1. Instalação e configuração do Lacuna (Plugin para assinatura digital | SEPLAG)
 
 - Novo ambiente: http://devcanixti-cge.nordeste-idc.saveincloud.net:11977/login
 - Link para o chrome: https://chromewebstore.google.com/detail/web-pki/dcngeagmmhegagicpcmpinaoklddcgon
 - Link para os demais ambientes: https://get.webpkiplugin.com/Setup?brand=&jslib=&browser=Chrome&returnUrl=
 
-## 2.1. Gerar o certificado
+## 1.1. Gerar o certificado
 https://demos.lacunasoftware.com/pt/demos/generate-certificate
 
 ![image](https://github.com/user-attachments/assets/99d99a5d-2be0-4ac7-9915-9d0c9dab41da)
@@ -137,7 +69,7 @@ O nome do arquivo ficou padrão:
 (DEMO) ANGELO LUSTOSA DE FIGUEIREDO FILHO.pfx
 ```
 
-### 2.1.2. Para verificar o arquivo criado:
+### 1.2. Para verificar o arquivo criado:
 
 ![image](https://github.com/user-attachments/assets/1cad2fa3-9c47-4ea3-a494-a420de0c020b)
 
@@ -156,7 +88,7 @@ https://share.teamforms.app/form/M2ViNWExYTgtOTA3My00ZGFhLThhNzctNDNjMzcyMmUwMTI
 CPF Fornecedor: 750.957.130-80
 
 
-### 2.1.3.  Assinar Documento
+### 1.3.  Assinar Documento
 
 Em Solicitações -> Análises Jurídicas
 
