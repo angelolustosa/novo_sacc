@@ -55,3 +55,66 @@ Gestão de Contratação (Verde) e Portal do Contratado(Laranja)
  - Java 17
  - PostgresSQL 14
  - Spring Boot 3
+
+---
+
+# 3. Arquitetura Front
+
+![image](https://github.com/user-attachments/assets/d0e116d2-b165-40a5-9881-d7639c93cbe8)
+
+Interceptor
+
+- Intercepta cada requisição e colocar o access Token.
+- Como toda requisição está sujeita a falhas o Interceptor direciona para as exceções.
+- No front interceptor.js
+- Pegar o refresh token e enviar para o Back para que seja enviado um novo token para continuar a fila de requests.
+
+# 3.1. Estrutura de Pastas
+
+![image](https://github.com/user-attachments/assets/19230769-40c5-4afb-8a4d-587f985b9047)
+
+
+# 3.1.1. _.vscode_
+- Ao abrir o projeto é alterado as cores do VsCode para diferenciar de forma visual na IDE em quam projeto estamos
+
+![image](https://github.com/user-attachments/assets/399c6968-9a68-475b-8d42-bef8c0a029bf)
+
+# 3.1.1. _conf_
+
+![image](https://github.com/user-attachments/assets/4c171627-620f-4b52-8f26-ec5790de48aa)
+
+# 3.1.1. _docs_
+
+- Utiliza a lib [Docusaurus](https://docusaurus.io/)
+- Todas as docs do sistema em _.md_
+- Arquitetura
+- Desenvolvimento
+- Testes
+- Ultilitários
+- está ligado ao /website
+
+# 3.1.1. _node_modules_
+
+- Dependências instaladas pelo projeto
+
+# 3.1.2. _public_
+
+- Arquivos que serão utilizado por toda a aplicação, principalmente durante o build
+- E tem os paths que se for atualizado o serviceWorker é que gerencia os redirecionamentos.
+
+# 3.1.3. _dist_
+
+- Pasta gerada pelo build
+- npm run prev roda os arquivos estáticos que irão para prod
+
+# 3.1.4. _website_
+
+- Pasta gerada pelo Docusaurus para a documentação
+
+# 3.1.5. _.editorconfig_
+
+- Configuração do prettier
+
+# 3.1.5. Arquivos _.env_
+
+- Dentro do env está o APP_VERSION e o SPRINT_VERSION que é incrementado manualmente, mas lá pela CANIX de forma automática.
