@@ -49,4 +49,9 @@ Gestão de Contratação (Verde) e Portal do Contratado(Laranja)
 - Redis para a seção de usuários e guardar o cache e mensageria.
 - Ngix está como API gateway
 - Réplica do banco apenas para leitura para consumo da API externa.
-   
+
+# 2.3. Vesoes Tecnologias
+
+ - Java 17
+ - PostgresSQL 14
+ - Spring Boot 3
