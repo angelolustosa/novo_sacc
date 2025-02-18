@@ -1,4 +1,6 @@
-# Repasse Técnico Front | e-Contrato (17/02/2025)
+# Repasse Técnico Front | e-Contrato
+
+# >>  (17/02/2025)
 Apresentação das Equipes
 
 ### Canix
@@ -118,3 +120,16 @@ Interceptor
 # 3.1.5. Arquivos _.env_
 
 - Dentro do env está o APP_VERSION e o SPRINT_VERSION que é incrementado manualmente, mas lá pela CANIX de forma automática.
+
+---
+
+# >>  (18/02/2025)
+
+# Estruturas de Pastas e Nomemclaturas
+
+- ExemploComponent
+- Se ele possuir subcomponentes, criar uma subpasta: /PrimeiroComponent e dentro dele um index.tsx;
+- Se o componente acima for um formuláro e possuir steps, criar o PrimeiroStep e dentro dela /components. Obs: só pode ter duas pastas compoenets para cada compenent macro;
+- Arquivo de teste fica na raiz com o mesmo no da pasta .spec.tsx;
+- Todos os componentes do sistema estão cobertos por teste? Não sabe, pois era feito em momentos de folga entre uma sprint e outra.
+- Para executar os testes é o vite test, que por baixo usa o Jest.
